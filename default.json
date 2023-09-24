@@ -17,7 +17,11 @@
         "dkim19375"
     ],
     "extends": [
-        "config:base"
-    ],
-    "prHourlyLimit": 0
+        "config:base",
+        ":disableRateLimiting",
+        ":gomod",
+        ":npm",
+        ":prImmediately",
+        "replacements:all"
+    ]
 }

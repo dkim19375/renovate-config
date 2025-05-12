@@ -8,8 +8,12 @@
                 "pin",
                 "digest"
             ],
-            "automerge": true,
+            "automerge": true
+        },
+        {
+            "matchDatasources": ["maven"],
             "registryUrls": [
+                "https://repo1.maven.org/maven2",
                 "https://hub.spigotmc.org/nexus/content/repositories/snapshots/",
                 "https://repo.papermc.io/repository/maven-public/",
                 "https://jitpack.io",

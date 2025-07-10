@@ -37,8 +37,6 @@
                 "https://repo.extendedclip.com/content/repositories/public",
                 "https://maven.enginehub.org/repo",
                 "https://redempt.dev",
-                "https://repo.kryptonmc.org/releases",
-                "https://repo.kryptonmc.org/snapshots",
                 "https://repo.essentialsx.net/releases",
                 "https://repo.essentialsx.net/snapshots"
             ]

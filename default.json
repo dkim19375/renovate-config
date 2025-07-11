@@ -40,6 +40,41 @@
                 "https://repo.essentialsx.net/releases",
                 "https://repo.essentialsx.net/snapshots"
             ]
+        },
+        {
+            "matchDatasources": ["maven"],
+            "registryUrls": [
+                "https://repo1.maven.org/maven2",
+                "https://plugins.gradle.org/m2/",
+                
+                "https://hub.spigotmc.org/nexus/content/repositories/snapshots/",
+                "https://repo.papermc.io/repository/maven-public/",
+                "https://jitpack.io",
+                "https://repo.clojars.org",
+                "https://m2.dv8tion.net/releases",
+                "https://repo.triumphteam.dev/releases",
+                "https://repo.triumphteam.dev/snapshots",
+                "https://repo.viaversion.com/everything",
+                "https://repo.dmulloy2.net/repository/public",
+                "https://nexus.scarsz.me/content/groups/public",
+                "https://repo.codemc.org/repository/maven-public",
+                "https://oss.sonatype.org/content/repositories/releases",
+                "https://oss.sonatype.org/content/repositories/snapshots",
+                "https://s01.oss.sonatype.org/content/repositories/releases",
+                "https://s01.oss.sonatype.org/content/repositories/snapshots",
+                "https://repo.extendedclip.com/content/repositories/placeholderapi",
+                "https://repo.alessiodp.com/releases",
+                "https://repo.onarandombox.com/content/groups/public",
+                "https://repo.extendedclip.com/content/repositories/public",
+                "https://maven.enginehub.org/repo",
+                "https://redempt.dev",
+                "https://repo.essentialsx.net/releases",
+                "https://repo.essentialsx.net/snapshots"
+            ]
+        },
+        {
+            "matchDatasources": ["maven"],
+            "allowedVersions": "!/\\-SNAPSHOT$/"
         }
     ],
     "platformAutomerge": true,
